@@ -4,7 +4,8 @@
     "typescript": "^5.2.2"
   },
   "scripts": {
-    "start": "node --loader ts-node/esm src/index.ts"
+    "start": "node dist/index.js",
+    "build": "tsc"
   },
   "dependencies": {
     "cross-fetch": "^4.0.0",
